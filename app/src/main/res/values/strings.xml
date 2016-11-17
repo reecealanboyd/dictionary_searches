@@ -1,0 +1,14 @@
+<!--
+File name: strings.xml
+Due date: 11/17/2016 @ 1:20PM
+Author: Reece Boyd
+Course: CSCI3033
+Description: Strings used in the GUI of the application.
+Input/Output: None.
+-->
+<resources>
+    <string name="app_name">Boyd5</string>
+    <string name="search_hint">Search</string>
+    <string name="save_button_text">Save</string>
+    <string name="previous_searches">Previous Searches</string>
+</resources>

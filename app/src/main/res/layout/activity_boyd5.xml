@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+File name: activity_boyd5.xml
+Due date: 11/17/2016 @ 1:20PM
+Author: Reece Boyd
+Course: CSCI3033
+Description: Elements used in the GUI of the Boyd5 activity.
+Input/Output: None.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_boyd5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.reece.boyd5.Boyd5">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boyd5_grid_layout"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/boyd5_edit_text_in_grid_layout"
+            android:hint="@string/search_hint"
+            android:inputType="text" />
+
+        <Button
+            android:text="@string/save_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/boyd5_button_in_grid_layout"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light" />
+
+    </GridLayout>
+
+    <TextView
+        android:text="@string/previous_searches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boyd5_favorite_words_text_view"
+        android:layout_below="@+id/boyd5_grid_layout"
+        android:textAlignment="center"
+        android:textSize="@dimen/previous_searches_textSize"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/boyd5_favorite_words_text_view"
+        android:id="@+id/boyd5_list_view"
+        android:dividerHeight="@dimen/boyd5_list_view_divider_height"
+        android:divider="@android:color/transparent"
+        android:layout_marginTop="@dimen/boyd5_list_view_margin_top" />
+
+</RelativeLayout>

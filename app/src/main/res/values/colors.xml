@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+File name: colors.xml
+Due date: 11/17/2016 @ 1:20PM
+Author: Reece Boyd
+Course: CSCI3033
+Description: Colors used in the GUI of the application.
+Input/Output: None.
+-->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

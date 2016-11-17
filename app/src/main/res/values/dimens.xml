@@ -1,0 +1,17 @@
+<!--
+File name: dimens.xml
+Due date: 11/17/2016 @ 1:20PM
+Author: Reece Boyd
+Course: CSCI3033
+Description: Dimensions used in the GUI of the application.
+Input/Output: None.
+-->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="previous_searches_textSize">18dp</dimen>
+    <dimen name="boyd5_list_item_padding">10dp</dimen>
+    <dimen name="boyd5_list_view_divider_height">10dp</dimen>
+    <dimen name="boyd5_list_view_margin_top">10dp</dimen>
+</resources>
